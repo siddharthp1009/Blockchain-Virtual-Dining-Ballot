@@ -1,0 +1,215 @@
+
+/* JUMBOTRON STYLE HERE */
+.jumbotron{
+  background: 
+ linear-gradient(
+  rgba(255, 255, 255, 0), 
+  rgba(187,91,0,0.2),
+  rgba(0, 91,187, 0.4)
+
+
+  
+), 
+url(../img/nb.png);
+background-repeat: no-repeat;
+background-attachment: fixed;
+color:white !important;
+height:100vh;
+}
+
+/* BUTTON STYLE HERE */
+.btn{
+    margin-right:20px;
+}
+.btn-outline-primary{
+  border-color: darkslategrey;
+  color:darkslategrey;
+  background-color:transparent;
+  margin-top:30px;
+  font-weight:100;
+  border-radius: 20px ;
+  width: 280px;
+}
+.btn-outline-primary:hover{
+  border-color: white;
+  color: white;
+  background-color:#005bbb;
+  border-radius: 20px;
+}
+.btn-outline-primary:active{
+  border-color: white;
+  color:white;
+  background-color:#005bbb;
+  padding:9px 20px 9px 20px;
+
+  border-radius: 20px;
+}
+
+/* BUTTON HEADER RIGHT */
+.rightHeader{
+  position: absolute;
+  top: -15px;
+  right: 8px;
+}
+/* BUTTON HEADER LEFT */
+.leftHeader{
+  position: absolute;
+  top:370px;
+  left: 430px;
+}
+
+/* Cover Text */
+
+.coverText{
+    top:170px;
+    left: 420px;
+  }
+
+  .coverTextSub{
+    position: absolute;
+    top:180px;
+    left: 20px;
+  }
+
+ 
+  
+
+.title{
+  margin-top:10vh;
+}
+.text_margin{
+    width:70vw;
+    margin: 0 auto;
+}
+.string-1{
+  padding-top:30px;
+  width:600px;
+  margin:0 auto;
+  font-weight:100;
+  margin-top:-35px;
+}
+
+
+.content{
+  margin:7%;
+}
+br{
+  margin:20px;
+}
+
+/*my sapce*/
+/* .accordspace{
+    width: 300px;
+    margin-right: 10px;
+} */
+
+.fontt-all{
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    outline: none;
+    border: none;
+    font-size: 23px;
+    padding: 1px 1px -1px 1px;
+    margin-bottom: 1px;
+    color: #ffffff;
+}
+
+.fontt-all:focus{
+    outline: none;
+    border: none;
+}
+
+.fontt-all:hover{
+    background-color: transparent;
+    color:#005bbb;
+    border: 21p solid #005bbb;
+}
+
+.btnround{
+    border-radius: 20px;
+}
+
+.card-header{
+    background: #005bbb;
+    
+}
+
+.btn-inp{
+    border-radius: 50px;
+    letter-spacing: 1px;
+    line-height: 18px;
+    border-radius: 50px;
+    padding: 15px 15px 15px 15px;
+    margin: 0px 10px 0px 10px;
+}
+
+.inp{
+    border: 0;
+    outline: 0;
+    background: transparent;
+    border-bottom: 2px solid darkgrey;
+    max-width: 100%;
+    border-bottom-width: 100%;
+    width: 100%;
+    margin-bottom: -10px;
+  }
+
+   .inp:focus{
+    border: 0;
+    outline: 0;
+    background: transparent;
+    border-bottom: 2px solid darkgrey;
+    max-width: 100%;
+    text-decoration: none;
+}
+
+
+.bd-spacer{
+    margin-top: 20px;
+    margin-bottom: 35px;
+}
+
+
+.three-card{
+    margin-left: 350px;
+    margin-top: 0px;
+    margin-right: -50%;
+
+    width: 120%;
+
+
+}
+
+#accordion{
+    min-width: 300px;
+}
+
+
+.card-horizontal {
+    display: flex;
+    flex-direction: row;
+}
+
+.card-horizontal-rev {
+    display: flex;
+    flex-direction: row-reverse;
+}
+/*
+
+.card-horizontal {
+    display: flex;
+    flex: 1 1 auto;
+}
+
+*/
+
+a:hover{
+    text-decoration: none;
+}
+
+.modal-header{
+    background-color: #005bbb;
+    color: #ffffff;
+}
+
+

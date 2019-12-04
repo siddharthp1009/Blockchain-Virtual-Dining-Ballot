@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/newpg.css" />
+    <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/fontawesome.css" />
+
+
+</head>
+
+<body>
+
+
+    <div class="text-center">
+        <div class="col-md-12 ">
+            <div id="cover">
+                <div class="jumbotron jumbotron-fluid">
+                    <div class="container">
+                        <div class="position-absolute coverText">
+                            <h1 class="title display-3 text-center"
+                                style="font-weight:200;font-family: Georgia, 'Times New Roman', Times, serif; color: #005bbb; ">
+                                Dining
+                                Ballot</h1>
+                            <p class="lead string-1 text-center"
+                                style="font-family: Georgia, 'Times New Roman', Times, serif; font-weight: 100; color: #005bbb;">
+                                Vote for your Favorite Restaurant</p>
+                            <br> <br><br> <br> <br>
+                            <p class="lead string-1 text-center"
+                                style="font-family: Georgia, 'Times New Roman', Times, serif; font-weight: 100; color:darkslategray;">
+                                Already Registered? Scroll Down for More!</p>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="btn-group leftHeader">
+
+                        <!-- a href="" class="btn btn-primary " data-toggle="modal" role="button"
+                                    data-target="#registerCandidacy" -->
+                        <a href="" data-toggle="modal" role="button" data-target="#registerCandidacy"
+                            style="font-family: Georgia, 'Times New Roman', Times, serif; font-weight: 100;"><button
+                                class="btn btn-outline-primary">Register as a
+                                Candidate</button></a>
+
+                        <!-- a href="" role="button" class="btn btn-primary" data-toggle="modal"
+                                    data-target="#registerVoter" -->
+                        <a href="" data-toggle="modal" data-target="#registerVoter"
+                            style="font-family: Georgia, 'Times New Roman', Times, serif; font-weight: 100;"><button
+                                class="btn btn-outline-primary">Register as a
+                                Voter</button></a><br>
+                    </div>
+
+
+
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    <div class="content">
+
+        <h1 style="font-family: Georgia, 'Times New Roman', Times, serif; font-weight: 100;">Welcome.</h1>
+
+        <p style="font-family: Georgia, 'Times New Roman', Times, serif; font-size: 17px;">
+            Dining Ballot is one of a kind online voting system Governed by super secure Blockchain Backend. Well how is
+            it different than other voting methods? Simple, the votes
+            you cast are not seen or even manipulated in anyway since the blockchain backend won't allow that. The
+            Voting Council Chairperson governs all the phase activities and final disclosure
+            of the result. So if you feel comfortable now go ahead and explore the page and don't forget to register and
+            vote.
+        </p>
+
+
+
+        <div class="position-absolute">
+
+
+            <div class="three-card">
+
+
+
+                <div class="card">
+
+                    <a href="" data-toggle="modal" data-target="#voteforcandidate">
+                        <div class="card-horizontal">
+                            <div class="img-square-wrapper">
+                                <img class="" src="./img/vote101.png" alt="Card image cap">
+                            </div>
+
+                            <div class="card-body">
+                                <div class=" position-absolute">
+                                    <div style="color: #005bbb;">
+                                        <h4 class=" card-title">Vote Here!</h4>
+                                        <p class="card-text" style="padding-right: 15px;">Your vote decides the best
+                                            place
+                                            for
+                                            other students
+                                            and the University to dine at. <br><br><br>
+                                            <Strong>Click on this Card to Cast your Vote</Strong></p>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </a>
+
+                </div>
+
+                <br>
+
+
+                <div class="card">
+                    <a href="" data-toggle="modal" data-target="#changevote">
+                        <div class="card-horizontal">
+
+                            <div class="img-square-wrapper">
+                                <img class="" src="./img/changeVote101.png" alt="Card image cap">
+                            </div>
+                            <div class="card-body">
+                                <div class="position-absolute">
+                                    <div style="color:#005bbb;">
+                                        <h4 class="card-title">Change Vote</h4>
+                                        <p class="card-text" style="padding-right: 20%;">Not sure about the vote you
+                                            gave?? Here's one last chance to change your vote <br><br><br>
+                                            <Strong>Click on this Card to Cast your Updated Vote</Strong></p>
+                                    </div>
+
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </a>
+
+                </div>
+
+                <br>
+
+                <div class="card">
+                    <a href="" data-toggle="modal" data-target="#changephase">
+                        <div class="card-horizontal">
+                            <div class="img-square-wrapper">
+                                <img class="" src="./img/changePhase101.png" alt="Card image cap">
+                            </div>
+
+                            <div class="card-body">
+                                <div class="position-absolute">
+                                    <div style="color: #005bbb;">
+                                        <h4 class="card-title">Change Phase <button class="btn btn-danger" disabled>Only
+                                                for Chairperson!</button>
+                                        </h4>
+                                        <p class="card-text" style="padding-right: 15px;"> Each phase is governed by the
+                                            Voting Council Chaiperson, no student/candidate is allowed access to this
+                                            funtionality. <br><br><br>
+                                            <Strong>Click on this Card to change the phase</Strong></p>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </a>
+
+                </div>
+
+                <!-- <div class="card">
+                    <div class="card-header">
+                        <h3 class="card-title text-center fontt-all">Change Phase </h3>
+
+                    </div>
+                    <div class="card-body text-center cd-bd" style="margin-top: 10px;">
+                        <input id="enter_state" class="inp" placeholder="Enter State"> <br><br><br>
+                        <button class="btn btn-primary btn-inp btn-cards" id="changeState">Submit</button>
+                    </div>
+
+                </div>
+                <br>
+                <div class="card">
+                    <div class="card-header">
+                        <h3 class="card-title text-center fontt-all">Vote</h3>
+                    </div>
+                    <div class="card-body text-center cd-bd" style="margin-top: 10px;">
+                        <input id="enter_id" class="inp" placeholder="Vote for respective Candidate ID"><br><br><br>
+                        <button class="btn btn-primary btn-inp btn-cards" id="Vote">Submit</button>
+                    </div>
+
+                </div>
+                <br>
+                <div class="card">
+                    <div class="card-header">
+                        <h3 class="card-title text-center fontt-all">Change Vote</h3>
+                    </div>
+                    <div class="card-body text-center cd-bd" style="margin-top: 10px;">
+                        <input id="enter_id" class="inp" placeholder="Enter other Candidate's ID"><br><br><br>
+                        <button class="btn btn-primary btn-inp btn-cards" id="ChangeVote">Submit</button>
+                    </div>
+
+                </div> -->
+            </div>
+
+
+        </div>
+
+
+        <div class="position-absolute" style="width: 12%;">
+            <div id="accordion">
+                <div class="card" style="width: 110%;">
+                    <div class=" card-header text-center" id="headingOne">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link fontt-all"
+                                style="color:white;outline: none;text-decoration: none;font-size: 18px; padding: 0 0 0 0;"
+                                data-toggle="collapse" data-target="#collapseOne" aria-expanded="true"
+                                aria-controls="collapseOne">
+                                Get Candidate Count
+                            </button>
+
+                        </h5>
+                    </div>
+                    <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                        <div class="card-body text-center">
+                            <p style="font-size: 45px;" id ="get_cand"></p>
+                            <button style="width:80%;" class=" btn btn-primary btn-inp" id="CandidateCount">Get
+                                Count</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="accordion">
+                    <div class="card" style="width: 110%;">
+                        <div class=" card-header text-center" id="headingFour">
+                            <h5 class="mb-0">
+                                <button class="btn btn-link fontt-all"
+                                    style="color:white;outline: none;text-decoration: none;font-size: 18px; padding: 0 0 0 0;"
+                                    data-toggle="collapse" data-target="#collapseFour" aria-expanded="true"
+                                    aria-controls="collapseFour">
+                                    Get Voter Count
+                                </button>
+
+                            </h5>
+                        </div>
+                        <div id="collapseFour" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                            <div class="card-body text-center">
+                                <p style="font-size: 45px;" id="votercount"></p>
+                                <button style="width:80%;" class=" btn btn-primary btn-inp" id="getVoterCount">Get
+                                    Count</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            <div id="accordion">
+                <div class="card" style="width: 110%;">
+                    <div class=" card-header text-center" id="headingOne">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link fontt-all"
+                                style="color:white;outline: none;text-decoration: none;font-size: 18px; padding: 0 0 0 0;"
+                                data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true"
+                                aria-controls="collapseTwo">
+                                Get Candidate Information
+                            </button>
+
+                        </h5>
+                    </div>
+                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                        <div class="card-body text-center">
+                            <input id="enter_id" class="inp bd-spacer" placeholder=" Enter Candidate ID"><br>
+                            <a href="" data-toggle="modal" data-target="#displaycandidatedata">
+                                    <button style="width:80%;" class=" btn btn-primary btn-inp text-center"
+                                        id="DisplayCandidates">Display
+                                        Candidates</button></a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div style="margin-bottom: 4px;"></div>
+            <div id="accordion">
+                <div class="card" style="width: 110%;">
+                    <a href="" data-toggle="modal" id="ReqWinner" data-target="#winner">
+                        <img class="card-img-top" style="height: 90% ;width:100%;" src="./img/winner101.jpg"
+                            alt="Card image cap">
+                        <div class="card-body text-center">
+                            <Strong class="card-text " style="color: crimson; text-decoration: none;">Click
+                                on
+                                this card to
+                                checkout the Dining
+                                Winner
+                                you all chose!!</Strong>
+
+
+                        </div>
+                    </a>
+
+                </div>
+
+            </div>
+
+
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+
+
+
+
+    <!-- Modal for candidate REgisteration -->
+    <div class=" modal fade" id="registerCandidacy" tabindex="-1" role="dialog" aria-labelledby="candidateRegisterForm"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header text-center">
+                    <h4 class="modal-title w-100 font-weight-bold">Candidate Registeration</h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+
+                <div class="modal-body mx-3">
+
+                        <div class="md-form mb-5">
+                                <input id="enter_name" class="inp" placeholder="Enter Candidate name">
+                            </div>
+                    <div class="md-form mb-5">
+                        <input id="enter_address" class="inp" placeholder="Enter Candidate Address">
+                    </div>
+                    <div class="md-form mb-5">
+                        <input id="enter_FDA" class="inp" placeholder="FDA Approved">
+                    </div>
+                    <div class="md-form mb-5">
+                        <input id="enter_UBPermit" class="inp" placeholder="UB Permit">
+                    </div>
+                    <div class="md-form mb-5">
+                        <input id="enter_months" class="inp" placeholder="Months of Experience">
+                    </div>
+                    <div class="md-form mb-5">
+                        <input id="enter_hours" class="inp" placeholder="Weekly Hours">
+                    </div>
+                </div>
+                <div class="modal-footer d-flex justify-content-center">
+                    <button class="btn btn-primary btn-inp" id="RegCandidate">Submit</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- Modal for Voter Registeration -->
+    <div class="modal fade" id="registerVoter" tabindex="-1" role="dialog" aria-labelledby="voterRegisterForm"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header text-center">
+                    <h4 class="modal-title w-100 font-weight-bold">Voter Registeration</h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+
+                <div class="modal-body mx-3">
+                    <div class="md-form mb-5">
+                        <input id="enter_addressV" class="inp" placeholder="Enter Voter Address">
+                    </div>
+                    <div class="md-form mb-5">
+                        <input id="enter_UBIT" class="inp" placeholder="UBIT number">
+                    </div>
+                    <div class="md-form mb-5">
+                        <input class="inp" id="enter_role" placeholder="Role">
+                    </div>
+                </div>
+                <div class="modal-footer d-flex justify-content-center">
+                    <button class="btn btn-primary btn-inp" id="RegVoter">Submit</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal for voting -->
+
+    <div class="modal fade" id="voteforcandidate" tabindex="-1" role="dialog" aria-labelledby="voteform"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header text-center">
+                    <h4 class="modal-title w-100 font-weight-bold">Vote!</h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+
+                <div class="modal-body mx-3">
+                    <div class="md-form mb-5">
+                        <input id="enter_id" class="inp" placeholder="Vote for respective Candidate ID">
+                    </div>
+                </div>
+                <div class="modal-footer d-flex justify-content-center">
+                    <button class="btn btn-primary btn-inp" id="Vote">Submit</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal for Changing Vote -->
+
+    <div class="modal fade" id="changevote" tabindex="-1" role="dialog" aria-labelledby="changevoteform"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header text-center">
+                    <h4 class="modal-title w-100 font-weight-bold">Change Vote</h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+
+                <div class="modal-body mx-3">
+
+                    <div class="md-form mb-5">
+                        <input id="enter_id" class="inp" placeholder="Enter other Candidate's ID">
+                    </div>
+                </div>
+                <div class="modal-footer d-flex justify-content-center">
+                    <button class="btn btn-primary btn-inp" id="ChangeVote">Submit</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal for changin Phase -->
+
+    <div class="modal fade" id="changephase" tabindex="-1" role="dialog" aria-labelledby="changephaseform"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header text-center">
+                    <h4 class="modal-title w-100 font-weight-bold">Change Phase
+                    </h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+
+                <div class="modal-body mx-3">
+
+                    <div class="md-form mb-5">
+                        <input id="enter_state" class="inp" placeholder="Enter State">
+                    </div>
+                </div>
+                <div class="modal-footer d-flex justify-content-center">
+                    <button class="btn btn-primary btn-inp" id="changeState">Submit</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal for final Winner -->
+
+    <div class="modal fade" id="winner" tabindex="-1" role="dialog" aria-labelledby="winnerform" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header text-center">
+                    <h4 class="modal-title w-100 font-weight-bold">The Winner is...</p>
+                    </h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+
+                <div class="modal-body mx-3">
+
+                    <div class="md-form mb-5 text-center">
+                        <Strong style="font-size: 20px;">Congratulations!</Strong>
+                        <div style="margin-bottom: 10px;"></div>
+                        <img src="img/trophy.gif" style="width: 80%;">
+                        <div style="margin-bottom: 20px;"></div>
+                       <!-- <p id="winner_id" style="font-weight: 200; font-size: 35px;"></p> -->
+                       <Strong  style="font-size:35px;">
+                            <p id="winner_id">Winner Name</p>
+                        </Strong>
+                    </div>
+                    <!-- </div>
+                <div class="modal-footer d-flex justify-content-center">
+                    <button class="btn btn-primary btn-inp" id="changeState">Submit</button>
+                </div> -->
+
+                </div>
+            </div>
+        </div>
+    </div>
+     <!-- Modal to display candidate data-->
+
+
+
+     <div class="modal fade" id="displaycandidatedata" tabindex="-1" role="dialog" aria-labelledby="dispcandidateform"
+     aria-hidden="true">
+     <div class="modal-dialog" role="document">
+         <div class="modal-content">
+             <div class="modal-header text-center">
+                 <h4 class="modal-title w-100 font-weight-bold">Candidate Details</p>
+                 </h4>
+                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                     <span aria-hidden="true">&times;</span>
+                 </button>
+             </div>
+
+             <div class="modal-body mx-3">
+
+                 <div class="md-form mb-5">
+
+                     <strong>Candidate Id : </strong>
+                     <p id="c_id" style="display: inline;"></p>
+                 </div>
+                 <div class="md-form mb-5">
+                     <Strong>Candidate Name: </strong>
+                     <p id="c_name" style="display: inline;"></p>
+                 </div>
+                 <!-- </div>
+             <div class="modal-footer d-flex justify-content-center">
+                 <button class="btn btn-primary btn-inp" id="changeState">Submit</button>
+             </div> -->
+
+             </div>
+         </div>
+     </div>
+ </div>
+
+
+
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <div class="position-absolute">
+        <div style="margin-bottom: -10px;">
+
+            <hr width="100%">
+            <p> </p>
+        </div>
+    </div>
+
+
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="js/dist/web3.min.js"></script>
+    <script src="js/dist/truffle-contract.js"></script>
+    <script src="js/app.js"></script> -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.js"></script>
+
+    <script src="js/dist/web3.min.js"></script>
+    <script src="js/dist/truffle-contract.js"></script>
+    <script src = "js/app.js"></script>
+
+
+
+
+     <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+</body>
+
+
+</html>
